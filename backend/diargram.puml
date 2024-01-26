@@ -1,0 +1,12 @@
+@startuml ER Diagram
+entity Books {
+    * id
+    * title
+    * author_name
+    * publisher_name
+    * publish_date
+    --
+    * created_at
+    * updated_at
+}
+@enduml
